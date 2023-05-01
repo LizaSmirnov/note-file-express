@@ -39,9 +39,6 @@ router.get('/notes', (req, res) => {
     }
 });
 
-// -- look at the data the user sent you
-// -- *bonus* give that note an ID
-// -- add that data to the json file
-// -- return that note back to the user
+
 
 module.exports = router;
