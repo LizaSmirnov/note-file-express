@@ -4,10 +4,6 @@ const fs = require('fs')
 let noteFile = require('../db/db.json');
 const { v4: uuivd4 } = require('uuid');
 
-// 4. create a get route for api/notes
-// -- get all the data from the db.json
-// -- send that json data back to the user
-
 router.get('/notes', (req, res) => {
     res.json(noteFile)
   });
